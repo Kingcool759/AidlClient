@@ -41,6 +41,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
         // 绑定远程服务
         findViewById<Button>(R.id.btn_send).setOnClickListener {
             bindService()
